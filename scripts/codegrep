@@ -1,0 +1,24 @@
+#!/bin/bash
+set -e
+
+fail () {
+  echo FAILED
+  exit 1
+}
+
+echo GREP TESTS
+echo
+
+echo Checking to see if there is any .only left in tests, this is usually left over from development
+
+
+echo
+echo 'checking cypress, for end to end tests...'
+if grep -nr '\.only' cypress; then
+  # grep -nr '\.only' cypress
+  fail
+fi
+
+echo
+echo OKAY
+echo

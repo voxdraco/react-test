@@ -1,0 +1,91 @@
+// colours
+
+$brand-primary: #7793c0;
+$text-colour: #002b49;
+$footer-colour: #375c7b;
+
+$banner-background-colour: #002b49;
+$banner-background-colour__seethrough: rgba(0, 43, 73, 0.9);
+$navbar-active-colour: #002b49;
+
+$triangle-box-purple: #e0cae4;
+$triangle-box-purple-accent: #e7d4e9;
+$triangle-box-purple--hover: #c298ca;
+$triangle-box-purple-accent--hover: #c8a2cf;
+
+$triangle-box-green: #a4ded3;
+$triangle-box-green-accent: #b6e5dc;
+$triangle-box-green--hover: #3fbdaa;
+$triangle-box-green-accent--hover: #57c3b2;
+
+$triangle-box-link-blue: #002b49;
+
+$triangle-box-blue: #b2d3e0;
+$triangle-box-blue-accent: #c1dce6;
+$triangle-box-blue--hover: #67aac3;
+$triangle-box-blue-accent--hover: #76b2c9;
+
+$triangle-box-yellow: #ffe39b;
+$triangle-box-yellow-accent: #ffe9ae;
+$triangle-box-yellow--hover: #f5c938;
+$triangle-box-yellow-accent--hover: #f8ce4e;
+
+$triangle-box-darkblue: #b7c6dc;
+$triangle-box-darkblue-accent: #c5d1e3;
+$triangle-box-darkblue--hover: #7392ba;
+$triangle-box-darkblue-accent--hover: #809cc0;
+
+$triangle-box-orange: #ffba95;
+$triangle-box-orange-accent: #ffc8a9;
+$triangle-box-orange--hover: #ff763a;
+$triangle-box-orange-accent--hover: #ff844c;
+
+$infographic-background: #f5f9fb;
+
+$explanation-background-colour: #d4e3ef;
+$explanation-border-colour: #98b2d9;
+
+$explanation-icon-text: #002139;
+
+$explanation-icon-blue: #9ab6ce;
+$explanation-icon-green: #73b7aa;
+$explanation-icon-purple: #ba94c1;
+$explanation-icon-yellow: #e1bf5d;
+
+$explanation-icon-blue--active: #bdd4e7;
+$explanation-icon-green--active: #abe1d7;
+$explanation-icon-purple--active: #d8bcdd;
+$explanation-icon-yellow--active: #fcdc7d;
+
+$explanation-icon-path: #002139;
+$explanation-icon-path--active: #002139;
+
+$sidebar-border-colour: #e6e6e600;
+$sidebar-background-colour: #532e63;
+$sidebar-background-light: #c9cee1;
+$sidebar-color: #fff;
+$sidebar-link-color: #fff;
+
+$tab-background: #ebeef2;
+$tab-background--selected: #375c7b;
+
+$thumbnail-border: #d9d9d9;
+
+// sizes
+$site-width: 1160px;
+$footer-height: 10rem;
+
+$huge-gap: 100px;
+$big-gap: 3.25rem;
+$small-gap: 1.5rem;
+
+// transition
+$hover-time: 0.3s;
+$hover-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+$hover-transition: $hover-time $hover-function;
+$triangle-box-reduction: 2%;
+
+// IF YOU CHANGE THESE YOU'LL HAVE TO CHANGE flex-box.grid.css and flexboxgrid-helpers.css
+$xs-upper: 36em;
+$sm-upper: 64em;
+$md-upper: 75em;
