@@ -28,9 +28,7 @@ const HomePage = () => (
         <div className="row">
           <div className="col-xs-12 col-md-6">
             <p>
-              Welcome to the Goldman Sachs UK Retirement Plan website, providing
-              information and resources for deferred and pensioner members of
-              the Defined Benefit (DB) section of the Plan.
+              Dan Smells
             </p>
 
             <p>
